@@ -11,6 +11,7 @@ var AppConfig = {
     { id: "network", label: "WEBVIEW SCANNER", icon: "fa-globe" },
     { id: "vuln", label: "VULNERABILITIES", icon: "fa-shield-halved" },
     { id: "reports", label: "DARKNET DASHBOARD", icon: "fa-chart-line" },
+    { id: "passcode", label: "PASSCODE VALIDATOR", icon: "fa-key" },
     { id: "cctv", label: "CCTV COMMAND", icon: "fa-video" },
     { id: "social", label: "SOCIAL MEDIA", icon: "fa-share-nodes" },
     { id: "tor", label: "TOR INTEL", icon: "fa-mask" },
