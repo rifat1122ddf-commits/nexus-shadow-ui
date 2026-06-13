@@ -1,0 +1,12 @@
+{
+  "name": "nexus-shadow",
+  "version": "3.0.0",
+  "description": "NEXUS SHADOW — Secure Terminal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "SAYIDI",
+  "license": "UNLICENSED",
+  "private": true
+}

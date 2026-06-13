@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEXUS SHADOW</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="login-overlay">
+    <div class="login-box">
+      <div class="login-glow"></div>
+      <div class="login-title">NEXUS SHADOW</div>
+      <div class="login-sub">// SECURE TERMINAL v3.0</div>
+      <div class="login-input-row">
+        <input type="password" id="passcode-input" placeholder="ENTER PASSCODE" maxlength="20" autocomplete="off">
+        <button id="login-btn">AUTHENTICATE</button>
+      </div>
+      <div id="login-error"></div>
+    </div>
+  </div>
+
+  <div id="app" class="hidden">
+    <aside id="sidebar">
+      <div class="sb-logo">NS</div>
+      <nav id="sb-nav"></nav>
+      <div class="sb-session" id="sb-session">00:00:00</div>
+    </aside>
+    <main id="main-area">
+      <header id="header">
+        <div class="hdr-left">
+          <span class="hdr-gear"><i class="fas fa-cog fa-spin" style="animation-duration:8s"></i></span>
+          <span class="hdr-title">NEXUS SHADOW // <span id="hdr-page">IP TRACKING UNIT</span></span>
+        </div>
+        <div class="hdr-right">
+          <span class="hdr-stat">NODES: 16</span>
+          <span class="hdr-stat">LATENCY: 12ms</span>
+          <span id="hdr-clock" class="hdr-clock">00:00:00</span>
+        </div>
+      </header>
+      <div id="main-content"></div>
+    </main>
+  </div>
+
+  <div id="alert-container"></div>
+
+  <script src="config.js"></script>
+  <script src="event-bus.js"></script>
+  <script src="worldmap.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
